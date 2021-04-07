@@ -1,6 +1,6 @@
 {
-  "name": "node2sql-cli",
-  "version": "1.0.2",
+  "name": "koa2sql",
+  "version": "1.0.0",
   "description": "Node project tools",
   "bin": {
     "node2sql": "./dist/bin/index.js"
