@@ -1,7 +1,3 @@
-import dotenv from "dotenv";
-
-dotenv.config({ path: ".env" });
-
 export interface Config {
     port: number;
     debugLogging: boolean;
@@ -14,6 +10,7 @@ export interface Config {
     password: string;
     synchronize: boolean;
     database: string;
+    serverPort: number;
 }
 
 const isDevMode = process.env.NODE_ENV == "development";
@@ -31,7 +28,8 @@ const config: Config = {
     password: 'test',
     database: 'test',
     synchronize: false,
-    cronJobExpression: "0 * * * *"
+    cronJobExpression: "0 * * * *",
+    serverPort: 3000,
 };
 
 export { config };

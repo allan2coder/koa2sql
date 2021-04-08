@@ -1,14 +1,22 @@
+import figlet from "figlet";
 export class Printer {
   static power() {
-    console.log('');
-    console.log('');
-    console.log('        ____  ___');
-    console.log('       / __ \\/   ');
-    console.log('      / / / / /| | ');
-    console.log('     / /_/ / ___ ');
-    console.log('    /_____/_/  |_/');
-    console.log('');
-    console.log('');
-    console.log('Visit https://123.hellobike.com/ to learn more.');
+    // console.log([
+    //     "  _   _           _      ____  ____        _",
+    //     " | \ | | ___   __| | ___|___ \/ ___|  __ _| |",
+    //     " |  \| |/ _ \ / _` |/ _ \ __) \___ \ / _` | |",
+    //     " | |\  | (_) | (_| |  __// __/ ___) | (_| | |",
+    //     " |_| \_|\___/ \__,_|\___|_____|____/ \__, |_|",
+    //     "                                        |_|"
+    //   ].join('\n'));
+    figlet('Koa2Sql', (err, data) => {
+      if (err) {
+        console.log('Something went wrong...');
+        console.dir(err);
+        return;
+      }
+      console.log(data);
+      console.log(':)');
+    });
   }
 }
