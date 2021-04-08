@@ -16,7 +16,8 @@ export class Printer {
         return;
       }
       console.log(data);
-      console.log(':)');
+      console.log('Please let me know if you have any questions or concerns @xushunfa.');
+      console.log('Done! Enjoy it!');
     });
   }
 }

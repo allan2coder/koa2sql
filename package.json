@@ -1,6 +1,6 @@
 {
   "name": "koa2sql",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Node project tools",
   "bin": {
     "koa2sql": "./dist/bin/index.js"
