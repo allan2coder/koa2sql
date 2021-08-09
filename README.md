@@ -1,7 +1,7 @@
 # koa2sql cli
 
 ## 介绍
-koa2sql.js 是一款高性能、高扩展性、功能强大的 Node.js 服务端框架。可拓展为 Web 端框架。
+koa2sql.js 是一款高性能、高扩展性、功能强大的 Node.js 服务端框架。
 
 ## 特性
 - 基于 TypeScript 开发
